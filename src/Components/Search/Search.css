@@ -1,0 +1,45 @@
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__input > input {
+  padding: 4px;
+  font-weight: 400;
+  font-size: medium;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.search__input > input:focus {
+  outline: none;
+}
+
+.renderMovies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.body > h4 {
+  text-align: center;
+}
